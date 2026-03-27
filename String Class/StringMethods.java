@@ -1,6 +1,4 @@
-package stringpractice1;
-
-public class StringPractice1 {
+public class StringMethods {
 
     public static void main(String[] args) {
 
