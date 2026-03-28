@@ -21,6 +21,7 @@ public class StringProblem {
     }
 }
 
+OUTPUT
 Email: programmer@gmail.com
 Username :programmer
 Domain :gmail.com
