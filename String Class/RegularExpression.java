@@ -1,6 +1,4 @@
-package stringpractice4;
-
-public class StringPractice4 {
+public class RegularExpression {
 
     public static void main(String[] args) {
 
