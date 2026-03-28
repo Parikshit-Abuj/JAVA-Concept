@@ -12,9 +12,6 @@ public class StringProblem {
             System.out.println("Email: " + str);
             System.out.println("Username :" + uname);
             System.out.println("Domain :" + domain);
-
-            int j = domain.indexOf(".");
-            String name = domain.substring(0, j);
             System.out.println(name.equals("gmail"));
             System.out.println();
         }
