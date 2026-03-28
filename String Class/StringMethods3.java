@@ -21,3 +21,10 @@ public class StringMethods3 {
 
     }
 }
+
+OUTPUT
+false
+true
+3
+true
+the great wall of china
