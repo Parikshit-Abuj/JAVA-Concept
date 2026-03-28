@@ -20,3 +20,13 @@ public class StringProblem {
         }
     }
 }
+
+Email: programmer@gmail.com
+Username :programmer
+Domain :gmail.com
+true
+
+Email: programmer@hotmail.com
+Username :programmer
+Domain :hotmail.com
+false
