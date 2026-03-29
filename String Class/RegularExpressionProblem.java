@@ -27,3 +27,8 @@ public class RegularExpressionProblem {
         System.out.println(countWords(sentence));
     }
 }
+
+OUTPUT
+true
+aBc123
+4
