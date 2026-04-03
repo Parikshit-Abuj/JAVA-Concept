@@ -24,3 +24,8 @@ public class ArrayPractice4
             System.out.print(C[i] + " ");
     }
 }
+
+OUTPUT
+Length of A=5
+Length of A=10
+2 9 10 6 8
