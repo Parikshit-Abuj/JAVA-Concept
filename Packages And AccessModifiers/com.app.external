@@ -1,0 +1,25 @@
+package com.app.external;
+
+import com.app.model.Person;
+
+public class Employee extends Person {
+
+    public Employee(String ssn, String name, int age, String country) {
+        super(ssn, name, age, country);
+    }
+
+    public void accessProtected() {
+
+        // private → not accessible
+        // System.out.println(ssn);
+
+        // default → not accessible (different package)
+        // System.out.println(name);
+
+        // protected → accessible via inheritance
+        System.out.println("Age (protected): " + age);
+
+        // public → accessible
+        System.out.println("Country: " + country);
+    }
+}
