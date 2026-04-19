@@ -1,0 +1,39 @@
+package com.app.model;
+
+public class Person {
+
+    // 1. PRIVATE → accessible only within this class
+    private String ssn;
+
+    // 2. DEFAULT → accessible only within same package
+    String name;
+
+    // 3. PROTECTED → same package + child class in other package
+    protected int age;
+
+    // 4. PUBLIC → accessible everywhere
+    public String country;
+
+    // Constructor
+    public Person(String ssn, String name, int age, String country) {
+        this.ssn = ssn;
+        this.name = name;
+        this.age = age;
+        this.country = country;
+    }
+
+    // Public method to access private variable (Encapsulation)
+    public String getSSN() {
+        return ssn;
+    }
+
+    // Public method
+    public void showDetails() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Country: " + country);
+        System.out.println("SSN (private via getter): " + ssn);
+    }
+}
+
+OUTPUT
