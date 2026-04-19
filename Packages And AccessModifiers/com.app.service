@@ -1,0 +1,25 @@
+package com.app.service;
+
+import com.app.model.Person;
+
+public class ServiceTest {
+    public static void main(String[] args) {
+
+        Person p = new Person("123-45", "Rahul", 22, "India");
+
+        // private → NOT accessible
+        // System.out.println(p.ssn);
+
+        // default → NOT accessible (different package)
+        // System.out.println(p.name);
+
+        // protected → NOT accessible (not child class)
+        // System.out.println(p.age);
+
+        // public → accessible everywhere
+        System.out.println(p.country);
+
+        // access private using getter
+        System.out.println(p.getSSN());
+    }
+}
